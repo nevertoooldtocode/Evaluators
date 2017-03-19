@@ -8,5 +8,7 @@
 (define x 3)
 (assert x 3)
 
+(lambda (x) x)
+
 
 (assert (lambda (x) (* 2 x)) 4)
